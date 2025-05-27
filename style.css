@@ -37,7 +37,8 @@ body {
 .fade-slide img {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
+  border: 2px solid red;
   object-position: center;
   display: block;
   background-color: #000; /* Ensures extra space isn't white */
